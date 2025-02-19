@@ -145,3 +145,18 @@ html, body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 1000; /* Keeps it above all elements */
 }
+
+/* Style the Homepage Header */
+.homepage-header {
+    font-family: 'Poppins', sans-serif; /* Change to any font */
+    font-size: 36px; /* Adjust size */
+    font-weight: bold; /* Make it bold */
+    color: #ffffff; /* Change text color */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Make it uppercase */
+    letter-spacing: 2px; /* Adjust spacing between letters */
+    background-color: teal; /* Add background color */
+    padding: 20px; /* Add some padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
