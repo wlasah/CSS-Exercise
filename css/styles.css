@@ -44,9 +44,17 @@
     text-align: center;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
-    padding: 10px 0;
+    padding: 0; /* Remove extra padding */
+    margin: 0; /* Ensure no margin pushing it down */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensures it's above other content */
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
 }
 
 .nav li {
@@ -61,10 +69,12 @@
     transition: color 0.3s ease-in-out;
 }
 
-/* Hover Effect for Navigation */
-.nav li a:hover {
-    color: lightgray;
+/* Add spacing below the nav to prevent overlap with content */
+body {
+    margin: 0;
+    padding-top: 60px; /* Adjust this based on the navbar height */
 }
+
 
 /* Flexbox Layout for Container */
 .container {
