@@ -124,3 +124,24 @@ body {
 .links a:hover {
     background-color: darkcyan; /* Slightly darker teal on hover */
 }
+
+/* Remove default spacing from body and html */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fix Navigation Bar */
+.nav {
+    background-color: teal;
+    list-style-type: none;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0; /* Adjust padding if necessary */
+    margin: 0; /* Ensure no unwanted margins */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Keeps it above all elements */
+}
